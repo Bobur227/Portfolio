@@ -1,0 +1,71 @@
+.footer {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    background-image: url(/сайты/Game/img/header_bg.jpg); 
+    background-repeat: round;
+}
+.icon-star{
+    margin-left: 3rem;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    z-index: -1;
+    top: -90px;
+    fill: #ff7a18;
+}
+.footer-content {
+    position: relative;
+    margin-top: 110px;
+    padding: 3em;
+}
+
+.footer-title {
+    width: 700px;
+    font-size: 18px;
+    letter-spacing: .1rem;
+    color: #fff;
+}
+.footer-title a{
+    color: #0089c7;
+}
+.footer-title a:hover {
+    color: rgba(0, 136, 199, 0.6);
+}
+
+.footer-info {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 270px 270px 270px 270px;
+    grid-column-gap: 5rem;
+    grid-row-gap: 5em;
+    width: 72%;
+    color: #fff;
+}
+
+.footer-info__title  {
+    font-size: 18px;
+    font-style: normal;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    color: #ff7a18;
+    margin-bottom: 10px;
+}
+
+.footer-info__text li>a {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-right: 3px;
+    color: rgba(255, 255, 255, 0.7);
+    transition: color .2s ease-in;
+}
+
+.footer-info__text a:hover {
+    color: #fff;
+}
+
+.footer-info__text span {
+    font-size: .7rem;
+    line-height: 1.7;
+    color: rgb(141, 140, 140);
+}

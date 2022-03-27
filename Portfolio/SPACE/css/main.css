@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+li {
+    display: block;
+    text-decoration: none;
+}
+
+
+html {
+    font-family: 'Arvo', serif;
+    font-style: 400;
+    width: 100%;
+    height: 100vh;
+    background-color: #353535;
+
+}
+
+.container {
+    max-width: 1350px;
+    margin: auto;
+}
+
+.main-content:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.main-content { display: inline-block; }
+* html .main-content { height: 1%; }
+.main-content { display: block; }
+
+@media (max-whith-1350px) {
+    
+    
+}
+
